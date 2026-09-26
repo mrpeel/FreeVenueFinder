@@ -1,0 +1,1926 @@
+association_url: https://www.playhq.com/cricket-australia/org/box-hill-reporter-district-cricket-association/f8c1124c
+seasons:
+- name: BHRDCA Senior Competition (Summer 2026/27)
+  id: 77fbfe27
+- name: BHRDCA Junior Competition (Summer 2026/27)
+  id: 383bad37
+- name: ECA Seniors (Summer 2026/27)
+  id: 56bebbf4
+- name: ECA Juniors (Summer 2026/27)
+  id: 90325c78
+fixture_urls: []
+date_range:
+  start_date: '2026-10-03'
+  end_date: '2027-02-27'
+target_day: Saturday
+target_slots:
+- Afternoon
+time_slots:
+  Morning:
+    cutoff: '12:00'
+    description: Start times before 12:00 PM (e.g., Juniors)
+  Afternoon:
+    cutoff: '12:00'
+    description: Start times 12:00 PM and later (e.g., Seniors)
+venues:
+- name: Kalang Park
+  aliases:
+  - Kalang Park
+  - Kalang Park - Kalang Park
+  - Kalang Park 1
+  - Kalang Park Kalang Park
+  - Kalang Park Oval 1
+  distance_km: 0.01
+  suburb: BLACKBURN
+  home_club: Laburnum
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.827726
+  longitude: 145.142194
+- name: Whitehorse Reserve - Howard Wilson Oval
+  aliases:
+  - Howard Wilson Oval
+  - Whitehorse Reserve (Howard Wilson Oval)
+  - Whitehorse Reserve - Howard Wilson Oval
+  - Whitehorse Reserve Howard Wilson Oval
+  distance_km: 0.95
+  suburb: BOX HILL
+  home_club: East Box Hill
+  home_teams:
+  - 1st XI
+  competition: BHRDCA
+  latitude: -37.820675
+  longitude: 145.136197
+- name: Morton Park 1
+  aliases:
+  - 'Morton Park #1'
+  - 'Morton Park #1 - East'
+  - Morton Park (Oval 1)
+  - 'Morton Park - Morton Park #1 - East'
+  - Morton Park 1
+  - Morton Park Ground 1
+  - 'Morton Park Morton Park #1 - East'
+  - Morton Park Oval 1
+  distance_km: 1.36
+  suburb: BLACKBURN
+  home_club: Blackburn
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.822294
+  longitude: 145.15626
+- name: Morton Park 2
+  aliases:
+  - 'Morton Park #2'
+  - 'Morton Park #2 - West'
+  - Morton Park (Oval 2)
+  - 'Morton Park - Morton Park #2 - West'
+  - Morton Park 2
+  - Morton Park Ground 2
+  - 'Morton Park Morton Park #2 - West'
+  - Morton Park Oval 2
+  distance_km: 1.36
+  suburb: BLACKBURN
+  home_club: Blackburn
+  home_teams:
+  - 4th XI
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.822294
+  longitude: 145.15626
+- name: Mirrabooka Reserve 1
+  aliases:
+  - 'Mirrabooka Reserve #1'
+  - 'Mirrabooka Reserve #1 - South'
+  - Mirrabooka Reserve (Oval 1)
+  - 'Mirrabooka Reserve - Mirrabooka Reserve #1 - South'
+  - Mirrabooka Reserve 1
+  - Mirrabooka Reserve Ground 1
+  - 'Mirrabooka Reserve Mirrabooka Reserve #1 - South'
+  - Mirrabooka Reserve Oval 1
+  distance_km: 1.69
+  suburb: BLACKBURN SOUTH
+  home_club: Blackburn South
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.841902
+  longitude: 145.149436
+- name: Mirrabooka Reserve 2
+  aliases:
+  - 'Mirrabooka Reserve #2'
+  - 'Mirrabooka Reserve #2 - West'
+  - Mirrabooka Reserve (Oval 2)
+  - 'Mirrabooka Reserve - Mirrabooka Reserve #2 - West'
+  - Mirrabooka Reserve 2
+  - Mirrabooka Reserve Ground 2
+  - 'Mirrabooka Reserve Mirrabooka Reserve #2 - West'
+  - Mirrabooka Reserve Oval 2
+  distance_km: 1.69
+  suburb: BLACKBURN SOUTH
+  latitude: -37.841902
+  longitude: 145.149436
+- name: Springfield Park East
+  aliases:
+  - Springfield Park (East)
+  - Springfield Park - East
+  - Springfield Park - Springfield Park - East
+  - Springfield Park East Oval
+  - Springfield Park Oval East
+  - Springfield Park Springfield Park - East
+  distance_km: 2.18
+  suburb: KERRIMUIR
+  home_club: Kerrimuir United
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.809174
+  longitude: 145.134394
+- name: Springfield Park West
+  aliases:
+  - Springfield Park (West)
+  - Springfield Park - Springfield Park - West
+  - Springfield Park - West
+  - Springfield Park Oval West
+  - Springfield Park Springfield Park - West
+  - Springfield Park West Oval
+  distance_km: 2.18
+  suburb: KERRIMUIR
+  home_club: Mont Albert
+  home_teams:
+  - 4th XI
+  - 3rd XI
+  competition: ECA
+  latitude: -37.809174
+  longitude: 145.134394
+- name: Koonung Reserve - Len Toogood Oval
+  aliases:
+  - Koonung Reserve (Len Toogood Oval)
+  - Koonung Reserve - Len Toogood Oval
+  - Koonung Reserve Len Toogood Oval
+  - Len Toogood Oval
+  distance_km: 2.28
+  suburb: BLACKBURN NORTH
+  home_club: Blackburn North CC
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.808419
+  longitude: 145.151174
+- name: Koonung Reserve West
+  aliases:
+  - Koonung Reserve (West)
+  - Koonung Reserve - West
+  - Koonung Reserve - West Oval
+  - Koonung Reserve Oval West
+  - Koonung Reserve West Oval
+  - West Oval
+  distance_km: 2.28
+  suburb: BLACKBURN NORTH
+  home_club: Blackburn North CC
+  home_teams:
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.808419
+  longitude: 145.151174
+- name: Mahoneys Reserve - Bob Saker Oval
+  aliases:
+  - Bob Saker Oval
+  - Mahoneys Reserve (Bob Saker Oval)
+  - Mahoneys Reserve - Bob Saker Oval
+  - Mahoneys Reserve Bob Saker Oval
+  distance_km: 2.46
+  suburb: FOREST HILL
+  home_club: Nunawading
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.842444
+  longitude: 145.16319
+- name: Mahoneys Reserve 2
+  aliases:
+  - 'Mahoneys Reserve #2'
+  - Mahoneys Reserve (Oval 2)
+  - Mahoneys Reserve - Oval 2 - South Middle
+  - Mahoneys Reserve 2
+  - Mahoneys Reserve Ground 2
+  - Mahoneys Reserve Oval 2
+  - Mahoneys Reserve Oval 2 - South Middle
+  - Oval 2 - South Middle
+  distance_km: 2.46
+  suburb: FOREST HILL
+  home_club: Nunawading
+  home_teams:
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.842444
+  longitude: 145.16319
+- name: Mahoneys Reserve 3
+  aliases:
+  - 'Mahoneys Reserve #3'
+  - Mahoneys Reserve (Oval 3)
+  - Mahoneys Reserve - Oval 3 - South West
+  - Mahoneys Reserve 3
+  - Mahoneys Reserve Ground 3
+  - Mahoneys Reserve Oval 3
+  - Mahoneys Reserve Oval 3 - South West
+  - Oval 3 - South West
+  distance_km: 2.46
+  suburb: FOREST HILL
+  latitude: -37.842444
+  longitude: 145.16319
+- name: Surrey Park 1
+  aliases:
+  - Oval 1 - South West
+  - 'Surrey Park #1'
+  - Surrey Park (Oval 1)
+  - Surrey Park - Oval 1 - South West
+  - Surrey Park 1
+  - Surrey Park Ground 1
+  - Surrey Park Oval 1
+  - Surrey Park Oval 1 - South West
+  distance_km: 2.46
+  suburb: BOX HILL SOUTH
+  home_club: Surrey Hills
+  home_teams:
+  - 1st XI
+  - Sunday 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.826972
+  longitude: 145.114374
+- name: Surrey Park 3
+  aliases:
+  - Oval 3 - South East
+  - 'Surrey Park #3'
+  - Surrey Park (Oval 3)
+  - Surrey Park - Oval 3 - South East
+  - Surrey Park 3
+  - Surrey Park Ground 3
+  - Surrey Park Oval 3
+  - Surrey Park Oval 3 - South East
+  distance_km: 2.46
+  suburb: BOX HILL SOUTH
+  home_club: Mont Albert
+  home_teams:
+  - 5th XI
+  - U14
+  competition: ECA
+  latitude: -37.826972
+  longitude: 145.114374
+- name: Forest Hill Reserve
+  aliases:
+  - Forest Hill Reserve
+  - Forest Hill Reserve - Forest Hill Reserve
+  - Forest Hill Reserve 1
+  - Forest Hill Reserve Forest Hill Reserve
+  - Forest Hill Reserve Oval 1
+  distance_km: 2.95
+  suburb: FOREST HILL
+  home_club: Forest Hill
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.836971
+  longitude: 145.173855
+- name: Ballyshannassy Park North
+  aliases:
+  - Ballyshannassy Park (North)
+  - Ballyshannassy Park - North
+  - Ballyshannassy Park - North Oval
+  - Ballyshannassy Park North Oval
+  - Ballyshannassy Park Oval North
+  - North Oval
+  distance_km: 3.29
+  suburb: BURWOOD EAST
+  latitude: -37.856796
+  longitude: 145.135038
+- name: Ballyshannassy Park South
+  aliases:
+  - Ballyshannassy Park (South)
+  - Ballyshannassy Park - South
+  - Ballyshannassy Park - South Oval
+  - Ballyshannassy Park Oval South
+  - Ballyshannassy Park South Oval
+  - South Oval
+  distance_km: 3.29
+  suburb: BURWOOD EAST
+  home_club: Kerrimuir United
+  home_teams:
+  - 4th XI
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.856796
+  longitude: 145.135038
+- name: Boronia Grove Reserve
+  aliases:
+  - Boronia Grove Reserve
+  - Boronia Grove Reserve - Boronia Grove Reserve
+  - Boronia Grove Reserve 1
+  - Boronia Grove Reserve Boronia Grove Reserve
+  - Boronia Grove Reserve Oval 1
+  distance_km: 3.31
+  suburb: EAST DONCASTER
+  latitude: -37.79923
+  longitude: 145.152966
+- name: Mont Albert Reserve
+  aliases:
+  - Mont Albert Reserve
+  - Mont Albert Reserve - Mont Albert Reserve
+  - Mont Albert Reserve 1
+  - Mont Albert Reserve Mont Albert Reserve
+  - Mont Albert Reserve Oval 1
+  distance_km: 3.45
+  suburb: MONT ALBERT
+  home_club: Mont Albert
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - Sunday 1st XI
+  competition: ECA
+  latitude: -37.809759
+  longitude: 145.110319
+- name: Bennettswood Reserve South
+  aliases:
+  - Bennettswood Reserve (South)
+  - Bennettswood Reserve - South
+  - Bennettswood Reserve - South Oval
+  - Bennettswood Reserve Oval South
+  - Bennettswood Reserve South Oval
+  - South Oval
+  distance_km: 3.52
+  suburb: BENNETTSWOOD
+  home_club: Deakin
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.848697
+  longitude: 145.112228
+- name: Wattle Park Oval
+  aliases:
+  - Wattle Park Oval
+  - Wattle Park Oval - Wattle Park Oval
+  - Wattle Park Oval 1
+  - Wattle Park Oval Oval 1
+  - Wattle Park Oval Wattle Park Oval
+  distance_km: 3.58
+  suburb: SURREY HILLS
+  home_club: Surrey Hills
+  home_teams:
+  - 4th XI
+  - 3rd XI
+  competition: ECA
+  latitude: -37.840326
+  longitude: 145.104804
+- name: East Burwood Reserve 1
+  aliases:
+  - 'East Burwood Reserve #1'
+  - East Burwood Reserve (Oval 1)
+  - East Burwood Reserve - Oval 1 - South
+  - East Burwood Reserve 1
+  - East Burwood Reserve Ground 1
+  - East Burwood Reserve Oval 1
+  - East Burwood Reserve Oval 1 - South
+  - Oval 1 - South
+  distance_km: 3.7
+  suburb: BURWOOD EAST
+  home_club: Knox Churches
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.857566
+  longitude: 145.160905
+- name: East Burwood Reserve 2
+  aliases:
+  - 'East Burwood Reserve #2'
+  - East Burwood Reserve (Oval 2)
+  - East Burwood Reserve - Oval 2 - North
+  - East Burwood Reserve 2
+  - East Burwood Reserve Ground 2
+  - East Burwood Reserve Oval 2
+  - East Burwood Reserve Oval 2 - North
+  - Oval 2 - North
+  distance_km: 3.7
+  suburb: BURWOOD EAST
+  home_club: East Burwood
+  home_teams:
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.857566
+  longitude: 145.160905
+- name: Tally Ho Reserve
+  aliases:
+  - Tally Ho Reserve
+  - Tally Ho Reserve - Tally Ho Reserve
+  - Tally Ho Reserve 1
+  - Tally Ho Reserve Oval 1
+  - Tally Ho Reserve Tally Ho Reserve
+  distance_km: 3.86
+  suburb: MOUNT WAVERLEY
+  latitude: -37.862352
+  longitude: 145.146389
+- name: Elgar Park South East
+  aliases:
+  - Elgar Park (South East)
+  - Elgar Park - Elgar Park South East
+  - Elgar Park - South East
+  - Elgar Park Elgar Park South East
+  - Elgar Park Oval South East
+  - Elgar Park South East
+  - Elgar Park South East Oval
+  distance_km: 3.89
+  suburb: MONT ALBERT NORTH
+  home_club: Box Hill North Super Kings
+  home_teams:
+  - U14 Blue
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.79873
+  longitude: 145.117507
+- name: Elgar Park South West
+  aliases:
+  - Elgar Park (South West)
+  - Elgar Park - Elgar Park South West
+  - Elgar Park - South West
+  - Elgar Park Elgar Park South West
+  - Elgar Park Oval South West
+  - Elgar Park South West Oval
+  - Elgar Park South West
+  distance_km: 3.89
+  suburb: MONT ALBERT NORTH
+  home_club: Box Hill North Super Kings
+  home_teams:
+  - U14 Blue
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.79873
+  longitude: 145.117507
+- name: Walker Park
+  aliases:
+  - Walker Park
+  - Walker Park - Walker Park
+  - Walker Park 1
+  - Walker Park Oval 1
+  - Walker Park Walker Park
+  distance_km: 3.93
+  suburb: NUNAWADING
+  home_club: Mitcham
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.816633
+  longitude: 145.184841
+- name: Cooper Reserve
+  aliases:
+  - Cooper Reserve
+  - Cooper Reserve - Cooper Reserve
+  - Cooper Reserve 1
+  - Cooper Reserve Cooper Reserve
+  - Cooper Reserve Oval 1
+  distance_km: 4.29
+  suburb: BURWOOD
+  home_club: Burwood Uniting Canterbury
+  home_teams:
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.839937
+  longitude: 145.095963
+- name: Doncaster Reserve
+  aliases:
+  - Doncaster Reserve
+  - Doncaster Reserve - Doncaster Reserve
+  - Doncaster Reserve 1
+  - Doncaster Reserve Doncaster Reserve
+  - Doncaster Reserve Oval 1
+  distance_km: 4.41
+  suburb: EAST DONCASTER
+  home_club: Doncaster
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.788743
+  longitude: 145.151238
+- name: Livingstone Primary School East
+  aliases:
+  - Livingstone Primary School (East)
+  - Livingstone Primary School - East
+  - Livingstone Primary School - East Oval
+  - Livingstone Primary School - Livingstone Primary School - East Oval
+  - Livingstone Primary School East Oval
+  - Livingstone Primary School Livingstone Primary School - East Oval
+  - Livingstone Primary School Oval East
+  distance_km: 4.46
+  suburb: VERMONT SOUTH
+  latitude: -37.852272
+  longitude: 145.182588
+- name: Livingstone Primary School West
+  aliases:
+  - Livingstone Primary School (West)
+  - Livingstone Primary School - Livingstone Primary School - West Oval (Main)
+  - Livingstone Primary School - West
+  - Livingstone Primary School - West Oval (Main)
+  - Livingstone Primary School Livingstone Primary School - West Oval (Main)
+  - Livingstone Primary School Oval West
+  - Livingstone Primary School West Oval
+  distance_km: 4.46
+  suburb: VERMONT SOUTH
+  home_club: Vermont South
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.852272
+  longitude: 145.182588
+- name: Vermont Recreation Reserve
+  aliases:
+  - Vermont Recreation Reserve
+  - Vermont Recreation Reserve - Vermont Recreation Reserve
+  - Vermont Recreation Reserve 1
+  - Vermont Recreation Reserve Oval 1
+  - Vermont Recreation Reserve Vermont Recreation Reserve
+  distance_km: 4.5
+  suburb: VERMONT
+  latitude: -37.837988
+  longitude: 145.191922
+- name: Donvale Reserve 3
+  aliases:
+  - 'Donvale Reserve #3'
+  - Donvale Reserve (Oval 3)
+  - 'Donvale Reserve - Donvale Reserve #3'
+  - Donvale Reserve 3
+  - 'Donvale Reserve Donvale Reserve #3'
+  - Donvale Reserve Ground 3
+  - Donvale Reserve Oval 3
+  distance_km: 4.63
+  suburb: DONVALE
+  home_club: St. Davids
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.794822
+  longitude: 145.174627
+- name: Donvale Reserve 4
+  aliases:
+  - 'Donvale Reserve #4'
+  - Donvale Reserve (Oval 4)
+  - 'Donvale Reserve - Donvale Reserve #4'
+  - Donvale Reserve 4
+  - 'Donvale Reserve Donvale Reserve #4'
+  - Donvale Reserve Ground 4
+  - Donvale Reserve Oval 4
+  distance_km: 4.63
+  suburb: DONVALE
+  latitude: -37.794822
+  longitude: 145.174627
+- name: Essex Heights Reserve
+  aliases:
+  - Essex Heights Reserve
+  - Essex Heights Reserve - Essex Heights Reserve
+  - Essex Heights Reserve 1
+  - Essex Heights Reserve Essex Heights Reserve
+  - Essex Heights Reserve Oval 1
+  distance_km: 4.74
+  suburb: MOUNT WAVERLEY
+  home_club: Ashwood
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.863843
+  longitude: 145.113559
+- name: Canterbury Sports Ground
+  aliases:
+  - Canterbury Sports Ground
+  - Canterbury Sports Ground - Canterbury Sports Ground
+  - Canterbury Sports Ground 1
+  - Canterbury Sports Ground Canterbury Sports Ground
+  - Canterbury Sports Ground Oval 1
+  distance_km: 4.82
+  suburb: SURREY HILLS
+  home_club: Canterbury
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.822158
+  longitude: 145.08796
+- name: Mullauna Secondary College - East Oval East
+  aliases:
+  - Mullauna Secondary College - East Oval
+  - Mullauna Secondary College - East Oval (East)
+  - Mullauna Secondary College - East Oval - East
+  - Mullauna Secondary College - East Oval - Mullauna Secondary College - East Oval
+  - Mullauna Secondary College - East Oval East Oval
+  - Mullauna Secondary College - East Oval Mullauna Secondary College - East Oval
+  - Mullauna Secondary College - East Oval Oval East
+  distance_km: 4.84
+  suburb: MITCHAM
+  home_club: Mitcham
+  home_teams:
+  - 3rd XI
+  - 4th XI
+  competition: BHRDCA
+  latitude: -37.807427
+  longitude: 145.191042
+- name: Glen Waverley North Reserve North
+  aliases:
+  - Glen Waverley North Reserve
+  - Glen Waverley North Reserve (North)
+  - Glen Waverley North Reserve - Glen Waverley North Reserve
+  - Glen Waverley North Reserve - North
+  - Glen Waverley North Reserve Glen Waverley North Reserve
+  - Glen Waverley North Reserve North Oval
+  - Glen Waverley North Reserve Oval North
+  distance_km: 5.0
+  suburb: GLEN WAVERLEY
+  home_club: Glen Waverley Cougars
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.8705
+  longitude: 145.160122
+- name: Highfield Park North
+  aliases:
+  - Highfield Park (North)
+  - Highfield Park - North
+  - Highfield Park - North Oval
+  - Highfield Park North Oval
+  - Highfield Park Oval North
+  - North Oval
+  distance_km: 5.05
+  suburb: CAMBERWELL
+  home_club: Canterbury
+  home_teams:
+  - U16A
+  competition: Cricket
+  latitude: -37.835581
+  longitude: 145.085685
+- name: Highfield Park South
+  aliases:
+  - Highfield Park (South)
+  - Highfield Park - South
+  - Highfield Park - South Oval
+  - Highfield Park Oval South
+  - Highfield Park South Oval
+  - South Oval
+  distance_km: 5.05
+  suburb: CAMBERWELL
+  home_club: Wyclif
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.835581
+  longitude: 145.085685
+- name: Simpsons Park
+  aliases:
+  - Simpsons Park
+  - Simpsons Park - Simpsons Park
+  - Simpsons Park 1
+  - Simpsons Park Oval 1
+  - Simpsons Park Simpsons Park
+  distance_km: 5.14
+  suburb: MITCHAM
+  latitude: -37.823582
+  longitude: 145.200634
+- name: Lynden Park East
+  aliases:
+  - Lower East
+  - Lynden Park (East)
+  - Lynden Park - East
+  - Lynden Park - Lower East
+  - Lynden Park East Oval
+  - Lynden Park Lower East
+  - Lynden Park Oval East
+  distance_km: 5.2
+  suburb: BURWOOD
+  home_club: Burwood Uniting Canterbury
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - U14C Bate
+  competition: ECA
+  latitude: -37.843783
+  longitude: 145.086694
+- name: Lynden Park West
+  aliases:
+  - Lower West
+  - Lynden Park (West)
+  - Lynden Park - Lower West
+  - Lynden Park - West
+  - Lynden Park Lower West
+  - Lynden Park Oval West
+  - Lynden Park West Oval
+  distance_km: 5.2
+  suburb: BURWOOD
+  latitude: -37.843783
+  longitude: 145.086694
+- name: Lynden Park - Upper Oval
+  aliases:
+  - Lynden Park (Upper Oval)
+  - Lynden Park - Upper Oval
+  - Lynden Park Upper Oval
+  - Upper Oval
+  distance_km: 5.2
+  suburb: BURWOOD
+  home_club: Burwood Uniting Canterbury
+  home_teams:
+  - 5th XI
+  - 4th XI
+  - U14 Mixed u14 C
+  competition: ECA
+  latitude: -37.843783
+  longitude: 145.086694
+- name: Burwood Reserve East
+  aliases:
+  - Burwood Reserve (East)
+  - Burwood Reserve - East
+  - Burwood Reserve - East Oval-turf
+  - Burwood Reserve East Oval
+  - Burwood Reserve East Oval-turf
+  - Burwood Reserve Oval East
+  - East Oval-turf
+  distance_km: 5.26
+  suburb: BURWOOD
+  home_club: Burwood
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - Sunday 1st XI
+  competition: ECA
+  latitude: -37.854102
+  longitude: 145.092627
+- name: Burwood Reserve West
+  aliases:
+  - Burwood Reserve (West)
+  - Burwood Reserve - West
+  - Burwood Reserve - West Oval
+  - Burwood Reserve Oval West
+  - Burwood Reserve West Oval
+  - West Oval
+  distance_km: 5.26
+  suburb: BURWOOD
+  home_club: Burwood
+  home_teams:
+  - 4th XI
+  - 3rd XI
+  - U14
+  competition: ECA
+  latitude: -37.854102
+  longitude: 145.092627
+- name: Highvale Secondary College
+  aliases:
+  - Highvale Secondary College
+  - Highvale Secondary College - Highvale Secondary College
+  - Highvale Secondary College 1
+  - Highvale Secondary College Highvale Secondary College
+  - Highvale Secondary College Oval 1
+  distance_km: 5.28
+  suburb: ' Glen Waverley'
+  latitude: -37.867138
+  longitude: 145.175816
+- name: Rieschiecks Reserve 1
+  aliases:
+  - Oval 1
+  - 'Rieschiecks Reserve #1'
+  - Rieschiecks Reserve (Oval 1)
+  - Rieschiecks Reserve - Oval 1
+  - Rieschiecks Reserve 1
+  - Rieschiecks Reserve Ground 1
+  - Rieschiecks Reserve Oval 1
+  distance_km: 5.33
+  suburb: EAST DONCASTER
+  home_club: Knox City
+  home_teams:
+  - 2nd XI
+  - 1st XI
+  - U16 Light Blue
+  competition: ECA
+  latitude: -37.779924
+  longitude: 145.146346
+- name: Rieschiecks Reserve 2
+  aliases:
+  - Oval 2
+  - 'Rieschiecks Reserve #2'
+  - Rieschiecks Reserve (Oval 2)
+  - Rieschiecks Reserve - Oval 2
+  - Rieschiecks Reserve 2
+  - Rieschiecks Reserve Ground 2
+  - Rieschiecks Reserve Oval 2
+  distance_km: 5.33
+  suburb: EAST DONCASTER
+  home_club: Manningham
+  home_teams:
+  - 3rd XI
+  - 6th XI
+  competition: ECA
+  latitude: -37.779924
+  longitude: 145.146346
+- name: Larpent Reserve 1
+  aliases:
+  - 'Larpent Reserve #1'
+  - Larpent Reserve (Oval 1)
+  - Larpent Reserve - Oval 1 - East
+  - Larpent Reserve 1
+  - Larpent Reserve Ground 1
+  - Larpent Reserve Oval 1
+  - Larpent Reserve Oval 1 - East
+  - Oval 1 - East
+  distance_km: 5.4
+  suburb: GLEN WAVERLEY
+  latitude: -37.871
+  longitude: 145.170186
+- name: Terrarra Park 1
+  aliases:
+  - Oval 1 - West
+  - 'Terrarra Park #1'
+  - Terrarra Park (Oval 1)
+  - Terrarra Park - Oval 1 - West
+  - Terrarra Park 1
+  - Terrarra Park Ground 1
+  - Terrarra Park Oval 1
+  - Terrarra Park Oval 1 - West
+  distance_km: 5.48
+  suburb: VERMONT SOUTH
+  home_club: Holy Trinity
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - U16 Mixed White
+  competition: ECA
+  latitude: -37.854695
+  longitude: 145.194626
+- name: Terrarra Park 2
+  aliases:
+  - Oval 2 - Middle
+  - 'Terrarra Park #2'
+  - Terrarra Park (Oval 2)
+  - Terrarra Park - Oval 2 - Middle
+  - Terrarra Park 2
+  - Terrarra Park Ground 2
+  - Terrarra Park Oval 2
+  - Terrarra Park Oval 2 - Middle
+  distance_km: 5.48
+  suburb: VERMONT SOUTH
+  home_club: Blackburn North United
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.854695
+  longitude: 145.194626
+- name: Terrarra Park 3
+  aliases:
+  - Oval 3 - East
+  - 'Terrarra Park #3'
+  - Terrarra Park (Oval 3)
+  - Terrarra Park - Oval 3 - East
+  - Terrarra Park 3
+  - Terrarra Park Ground 3
+  - Terrarra Park Oval 3
+  - Terrarra Park Oval 3 - East
+  distance_km: 5.48
+  suburb: VERMONT SOUTH
+  home_club: Forest Hill
+  home_teams:
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.854695
+  longitude: 145.194626
+- name: Zerbes Reserve
+  aliases:
+  - Zerbes Reserve
+  - Zerbes Reserve - Zerbes Reserve
+  - Zerbes Reserve 1
+  - Zerbes Reserve Oval 1
+  - Zerbes Reserve Zerbes Reserve
+  distance_km: 5.69
+  suburb: EAST DONCASTER
+  home_club: East Doncaster
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - Sunday 1st XI
+  competition: ECA
+  latitude: -37.778517
+  longitude: 145.159886
+- name: Hartwell Sports Ground East
+  aliases:
+  - East Oval
+  - Hartwell Sports Ground (East)
+  - Hartwell Sports Ground - East
+  - Hartwell Sports Ground - East Oval
+  - Hartwell Sports Ground East Oval
+  - Hartwell Sports Ground Oval East
+  distance_km: 5.72
+  suburb: BURWOOD
+  home_club: Burwood District
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - U16
+  competition: BHRDCA
+  latitude: -37.854229
+  longitude: 145.086458
+- name: Hartwell Sports Ground West
+  aliases:
+  - Hartwell Sports Ground (West)
+  - Hartwell Sports Ground - West
+  - Hartwell Sports Ground - West Oval
+  - Hartwell Sports Ground Oval West
+  - Hartwell Sports Ground West Oval
+  - West Oval
+  distance_km: 5.72
+  suburb: BURWOOD
+  home_club: STC South Camberwell
+  home_teams:
+  - Sunday 1st XI
+  - U14
+  competition: ECA
+  latitude: -37.854229
+  longitude: 145.086458
+- name: Gordon Barnard Reserve 1
+  aliases:
+  - '#1 - West Oval'
+  - 'Gordon Barnard Reserve #1'
+  - 'Gordon Barnard Reserve #1 - West Oval'
+  - Gordon Barnard Reserve (Oval 1)
+  - 'Gordon Barnard Reserve - #1 - West Oval'
+  - Gordon Barnard Reserve 1
+  - Gordon Barnard Reserve Ground 1
+  - Gordon Barnard Reserve Oval 1
+  distance_km: 5.81
+  suburb: BALWYN NORTH
+  home_club: Balwyn
+  home_teams:
+  - U16 Men Balwyn Tigers U16
+  competition: Cricket
+  latitude: -37.801324
+  longitude: 145.085299
+- name: Gordon Barnard Reserve 2
+  aliases:
+  - '#2 - East Oval'
+  - 'Gordon Barnard Reserve #2'
+  - 'Gordon Barnard Reserve #2 - East Oval'
+  - Gordon Barnard Reserve (Oval 2)
+  - 'Gordon Barnard Reserve - #2 - East Oval'
+  - Gordon Barnard Reserve 2
+  - Gordon Barnard Reserve Ground 2
+  - Gordon Barnard Reserve Oval 2
+  distance_km: 5.81
+  suburb: BALWYN NORTH
+  latitude: -37.801324
+  longitude: 145.085299
+- name: Balwyn Park North
+  aliases:
+  - Balwyn Park (North)
+  - Balwyn Park - North
+  - Balwyn Park - North Oval
+  - Balwyn Park North Oval
+  - Balwyn Park Oval North
+  - North Oval
+  distance_km: 5.83
+  suburb: BALWYN
+  home_club: Balwyn Saints
+  home_teams:
+  - 5th XI
+  - U14 Mixed Balwyn Tigers U14
+  - 4th XI
+  competition: ECA
+  latitude: -37.813802
+  longitude: 145.078368
+- name: Capital Reserve
+  aliases:
+  - Capital Reserve
+  - Capital Reserve - Capital Reserve
+  - Capital Reserve 1
+  - Capital Reserve Capital Reserve
+  - Capital Reserve Oval 1
+  distance_km: 5.95
+  suburb: GLEN WAVERLEY
+  home_club: Glen Waverley Hawks
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.872008
+  longitude: 145.180507
+- name: Heatherdale Reserve 1
+  aliases:
+  - 'Heatherdale Reserve #1'
+  - 'Heatherdale Reserve #1 - East'
+  - Heatherdale Reserve (Oval 1)
+  - 'Heatherdale Reserve - Heatherdale Reserve #1 - East'
+  - Heatherdale Reserve 1
+  - Heatherdale Reserve Ground 1
+  - 'Heatherdale Reserve Heatherdale Reserve #1 - East'
+  - Heatherdale Reserve Oval 1
+  distance_km: 5.99
+  suburb: MITCHAM
+  latitude: -37.827777
+  longitude: 145.210558
+- name: Hislop Park - Centre Oval
+  aliases:
+  - Centre Oval
+  - Hislop Park (Centre Oval)
+  - Hislop Park - Centre Oval
+  - Hislop Park Centre Oval
+  distance_km: 6.14
+  suburb: BALWYN NORTH
+  home_club: AYC Harlequins
+  home_teams:
+  - 2nd XI
+  competition: ECA
+  latitude: -37.800426
+  longitude: 145.08163
+- name: Hislop Park West
+  aliases:
+  - Hislop Park (West)
+  - Hislop Park - West
+  - Hislop Park - West Oval
+  - Hislop Park Oval West
+  - Hislop Park West Oval
+  - West Oval
+  distance_km: 6.14
+  suburb: BALWYN NORTH
+  latitude: -37.800426
+  longitude: 145.08163
+- name: Frog Hollow Reserve
+  aliases:
+  - Frog Hollow Reserve
+  - Frog Hollow Reserve - Frog Hollow Reserve
+  - Frog Hollow Reserve 1
+  - Frog Hollow Reserve Frog Hollow Reserve
+  - Frog Hollow Reserve Oval 1
+  distance_km: 6.25
+  suburb: CAMBERWELL
+  home_club: Trinity Willison
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - U14
+  competition: ECA
+  latitude: -37.837674
+  longitude: 145.072242
+- name: Ashburton Park
+  aliases:
+  - Ashburton Park
+  - Ashburton Park - Ashburton Park
+  - Ashburton Park 1
+  - Ashburton Park Ashburton Park
+  - Ashburton Park Oval 1
+  distance_km: 6.26
+  suburb: ASHBURTON
+  home_club: Ashburton Willows
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - Sunday 1st XI
+  competition: ECA
+  latitude: -37.863284
+  longitude: 145.086973
+- name: Willison West Oval West
+  aliases:
+  - West Oval
+  - Willison West Oval (West)
+  - Willison West Oval - West
+  - Willison West Oval - West Oval
+  - Willison West Oval Oval West
+  - Willison West Oval West Oval
+  distance_km: 6.35
+  suburb: CAMBERWELL
+  home_club: Trinity Willison
+  home_teams:
+  - 4th XI
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.839166
+  longitude: 145.071545
+- name: Serpells Community Reserve 2
+  aliases:
+  - Oval 2 - West
+  - 'Serpells Community Reserve #2'
+  - Serpells Community Reserve (Oval 2)
+  - Serpells Community Reserve - Oval 2 - West
+  - Serpells Community Reserve 2
+  - Serpells Community Reserve Ground 2
+  - Serpells Community Reserve Oval 2
+  - Serpells Community Reserve Oval 2 - West
+  distance_km: 6.46
+  suburb: TEMPLESTOWE
+  home_club: East Doncaster
+  home_teams:
+  - 4th XI
+  - 5th XI
+  competition: ECA
+  latitude: -37.770274
+  longitude: 145.153019
+- name: Timber Ridge Reserve
+  aliases:
+  - Timber Ridge Reserve
+  - Timber Ridge Reserve - Timber Ridge Reserve
+  - Timber Ridge Reserve 1
+  - Timber Ridge Reserve Oval 1
+  - Timber Ridge Reserve Timber Ridge Reserve
+  distance_km: 6.5
+  suburb: DONCASTER
+  home_club: Yarraleen
+  home_teams:
+  - 1st XI
+  competition: BHRDCA
+  latitude: -37.776397
+  longitude: 145.106885
+- name: Macleay Park - DS Bull Oval
+  aliases:
+  - DS Bull Oval
+  - Macleay Park (DS Bull Oval)
+  - Macleay Park - DS Bull Oval
+  - Macleay Park DS Bull Oval
+  distance_km: 6.68
+  suburb: BALWYN NORTH
+  home_club: North Balwyn
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.800595
+  longitude: 145.074463
+- name: Macleay Park 2
+  aliases:
+  - 'Macleay Park #2'
+  - Macleay Park (Oval 2)
+  - Macleay Park - Oval 2
+  - Macleay Park 2
+  - Macleay Park Ground 2
+  - Macleay Park Oval 2
+  - Oval 2
+  distance_km: 6.68
+  suburb: BALWYN NORTH
+  home_club: North Balwyn
+  home_teams:
+  - 3rd XI
+  - U16 Maroon
+  - 4th XI
+  competition: ECA
+  latitude: -37.800595
+  longitude: 145.074463
+- name: Macleay Park 3
+  aliases:
+  - 'Macleay Park #3'
+  - Macleay Park (Oval 3)
+  - Macleay Park - Oval 3
+  - Macleay Park 3
+  - Macleay Park Ground 3
+  - Macleay Park Oval 3
+  - Oval 3
+  distance_km: 6.68
+  suburb: BALWYN NORTH
+  home_club: Marcellin OC
+  home_teams:
+  - 3rd XI
+  - U14 Maroon
+  - 5th XI
+  competition: ECA
+  latitude: -37.800595
+  longitude: 145.074463
+- name: Deepdene Park
+  aliases:
+  - Deepdene Park
+  - Deepdene Park - Deepdene Park
+  - Deepdene Park 1
+  - Deepdene Park Deepdene Park
+  - Deepdene Park Oval 1
+  distance_km: 6.74
+  suburb: BALWYN
+  home_club: Deepdene Bears
+  home_teams:
+  - 2nd XI
+  - 3rd XI
+  competition: ECA
+  latitude: -37.812988
+  longitude: 145.06794
+- name: Warner Reserve (Ashburton)
+  aliases:
+  - Warner Reserve (Ashburton)
+  - Warner Reserve (Ashburton) - Warner Reserve (Ashburton)
+  - Warner Reserve (Ashburton) 1
+  - Warner Reserve (Ashburton) Oval 1
+  - Warner Reserve (Ashburton) Warner Reserve (Ashburton)
+  distance_km: 6.76
+  suburb: ASHBURTON
+  latitude: -37.867875
+  longitude: 145.084451
+- name: Proclamation Park East
+  aliases:
+  - Proclamation Park (East Oval)
+  - Proclamation Park (East)
+  - Proclamation Park - East
+  - Proclamation Park - Proclamation Park (East Oval)
+  - Proclamation Park East Oval
+  - Proclamation Park Oval East
+  - Proclamation Park Proclamation Park (East Oval)
+  distance_km: 7.04
+  suburb: RINGWOOD
+  latitude: -37.828879
+  longitude: 145.222473
+- name: Proclamation Park West
+  aliases:
+  - Proclamation Park (West Oval)
+  - Proclamation Park (West)
+  - Proclamation Park - Proclamation Park (West Oval)
+  - Proclamation Park - West
+  - Proclamation Park Oval West
+  - Proclamation Park Proclamation Park (West Oval)
+  - Proclamation Park West Oval
+  distance_km: 7.04
+  suburb: RINGWOOD
+  latitude: -37.828879
+  longitude: 145.222473
+- name: Myrtle Park East
+  aliases:
+  - East Oval
+  - Myrtle Park (East)
+  - Myrtle Park - East
+  - Myrtle Park - East Oval
+  - Myrtle Park East Oval
+  - Myrtle Park Oval East
+  distance_km: 7.08
+  suburb: BALWYN NORTH
+  home_club: Balwyn Saints
+  home_teams:
+  - 3rd XI
+  competition: ECA
+  latitude: -37.799476
+  longitude: 145.070128
+- name: Myrtle Park West
+  aliases:
+  - Myrtle Park (West)
+  - Myrtle Park - West
+  - Myrtle Park - West Oval
+  - Myrtle Park Oval West
+  - Myrtle Park West Oval
+  - West Oval
+  distance_km: 7.08
+  suburb: BALWYN NORTH
+  home_club: St. Pauls Oakleigh
+  home_teams:
+  - 1st XI
+  - Sunday 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.799476
+  longitude: 145.070128
+- name: Mount View Primary School
+  aliases:
+  - Mount View Primary School
+  - Mount View Primary School - Mount View Primary School
+  - Mount View Primary School 1
+  - Mount View Primary School Mount View Primary School
+  - Mount View Primary School Oval 1
+  distance_km: 7.14
+  suburb: GLEN WAVERLEY
+  home_club: Glen Waverley Hawks
+  home_teams:
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.884998
+  longitude: 145.179155
+- name: Markham Avenue Reserve
+  aliases:
+  - Markham Avenue Reserve
+  - Markham Avenue Reserve - Markham Avenue Reserve
+  - Markham Avenue Reserve 1
+  - Markham Avenue Reserve Markham Avenue Reserve
+  - Markham Avenue Reserve Oval 1
+  distance_km: 7.23
+  suburb: ASHBURTON
+  home_club: AYC Harlequins
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - U14 Mixed U14 B
+  competition: ECA
+  latitude: -37.872313
+  longitude: 145.082381
+- name: Koonung Park Sportsfield
+  aliases:
+  - Koonung Park Sportsfield
+  - Koonung Park Sportsfield - Koonung Park Sportsfield
+  - Koonung Park Sportsfield 1
+  - Koonung Park Sportsfield Koonung Park Sportsfield
+  - Koonung Park Sportsfield Oval 1
+  distance_km: 7.25
+  suburb: BULLEEN
+  home_club: Bulleen
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.77872
+  longitude: 145.087895
+- name: Ted Ajani Reserve
+  aliases:
+  - Ted Ajani Reserve
+  - Ted Ajani Reserve - Ted Ajani Reserve
+  - Ted Ajani Reserve 1
+  - Ted Ajani Reserve Oval 1
+  - Ted Ajani Reserve Ted Ajani Reserve
+  distance_km: 7.31
+  suburb: LOWER TEMPLESTOWE
+  home_club: Bulleen Templestowe
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.768527
+  longitude: 145.106306
+- name: Stradbroke Park North
+  aliases:
+  - North Oval
+  - Stradbroke Park (North)
+  - Stradbroke Park - North
+  - Stradbroke Park - North Oval
+  - Stradbroke Park North Oval
+  - Stradbroke Park Oval North
+  distance_km: 7.79
+  suburb: KEW EAST
+  home_club: Koonung Heights
+  home_teams:
+  - 3rd XI
+  - U14
+  - U16A
+  competition: Cricket
+  latitude: -37.79873
+  longitude: 145.061674
+- name: Stradbroke Park South
+  aliases:
+  - South Oval
+  - Stradbroke Park (South)
+  - Stradbroke Park - South
+  - Stradbroke Park - South Oval
+  - Stradbroke Park Oval South
+  - Stradbroke Park South Oval
+  distance_km: 7.79
+  suburb: KEW EAST
+  latitude: -37.79873
+  longitude: 145.061674
+- name: Rathmines Road Reserve
+  aliases:
+  - Rathmines Road Reserve
+  - Rathmines Road Reserve - Rathmines Road Reserve
+  - Rathmines Road Reserve 1
+  - Rathmines Road Reserve Oval 1
+  - Rathmines Road Reserve Rathmines Road Reserve
+  distance_km: 7.8
+  suburb: HAWTHORN EAST
+  home_club: Hawthorn Boroondara
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - Sunday 1st XI
+  competition: ECA
+  latitude: -37.819819
+  longitude: 145.054121
+- name: Nettleton Park East
+  aliases:
+  - East pitch
+  - Nettleton Park (East)
+  - Nettleton Park - East
+  - Nettleton Park - East pitch
+  - Nettleton Park East Oval
+  - Nettleton Park East pitch
+  - Nettleton Park Oval East
+  distance_km: 7.8
+  suburb: GLEN IRIS
+  home_club: STC South Camberwell
+  home_teams:
+  - 2nd XI
+  - 3rd XI
+  - U16 Mixed U16 Red
+  competition: ECA
+  latitude: -37.854254
+  longitude: 145.060054
+- name: Marcellin College 1
+  aliases:
+  - 'Marcellin College #1'
+  - Marcellin College (Oval 1)
+  - Marcellin College - Marcellin College Oval 1 - Bray
+  - Marcellin College 1
+  - Marcellin College Ground 1
+  - Marcellin College Marcellin College Oval 1 - Bray
+  - Marcellin College Oval 1
+  - Marcellin College Oval 1 - Bray
+  distance_km: 7.89
+  suburb: BULLEEN
+  home_club: Marcellin OC
+  home_teams:
+  - 1st XI
+  competition: ECA
+  latitude: -37.774989
+  longitude: 145.082359
+- name: Marcellin College 2
+  aliases:
+  - 'Marcellin College #2'
+  - Marcellin College (Oval 2)
+  - Marcellin College - Marcellin College Oval 2 - Lyons
+  - Marcellin College 2
+  - Marcellin College Ground 2
+  - Marcellin College Marcellin College Oval 2 - Lyons
+  - Marcellin College Oval 2
+  - Marcellin College Oval 2 - Lyons
+  distance_km: 7.89
+  suburb: BULLEEN
+  home_club: Marcellin OC
+  home_teams:
+  - 2nd XI
+  - 1st XI
+  - 3rd XI
+  competition: ECA
+  latitude: -37.774989
+  longitude: 145.082359
+- name: Eric Raven Reserve
+  aliases:
+  - Eric Raven Reserve
+  - Eric Raven Reserve - Eric Raven Reserve
+  - Eric Raven Reserve 1
+  - Eric Raven Reserve Eric Raven Reserve
+  - Eric Raven Reserve Oval 1
+  distance_km: 7.92
+  suburb: GLEN IRIS
+  home_club: Glen Iris
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - Sunday 1st XI
+  competition: ECA
+  latitude: -37.861395
+  longitude: 145.06279
+- name: Carey Sporting Complex - Gramlick Oval
+  aliases:
+  - Carey Sporting Complex (Gramlick Oval)
+  - Carey Sporting Complex - Gramlick Oval
+  - Carey Sporting Complex Gramlick Oval
+  - Gramlick Oval
+  distance_km: 8.11
+  suburb: BULLEEN
+  home_club: Old Carey
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.776515
+  longitude: 145.076566
+- name: Carey Sporting Complex - Rees Oval
+  aliases:
+  - Carey Sporting Complex (Rees Oval)
+  - Carey Sporting Complex - Rees Oval
+  - Carey Sporting Complex Rees Oval
+  - Rees Oval
+  distance_km: 8.11
+  suburb: BULLEEN
+  home_club: Old Carey
+  home_teams:
+  - 3rd XI
+  competition: ECA
+  latitude: -37.776515
+  longitude: 145.076566
+- name: Carey Sporting Complex - Spicer Field
+  aliases:
+  - Carey Sporting Complex (Spicer Field)
+  - Carey Sporting Complex - Spicer Field
+  - Carey Sporting Complex Spicer Field
+  - Spicer Field
+  distance_km: 8.11
+  suburb: BULLEEN
+  latitude: -37.776515
+  longitude: 145.076566
+- name: Howard Dawson Reserve
+  aliases:
+  - Howard Dawson Reserve
+  - Howard Dawson Reserve - Howard Dawson Reserve
+  - Howard Dawson Reserve 1
+  - Howard Dawson Reserve Howard Dawson Reserve
+  - Howard Dawson Reserve Oval 1
+  distance_km: 8.15
+  suburb: GLEN IRIS
+  home_club: Glen Iris
+  home_teams:
+  - 3rd XI
+  - Glen Iris 4th X1
+  - U16A
+  competition: BHRDCA
+  latitude: -37.851188
+  longitude: 145.054443
+- name: D.W. Lucas Oval - Lucas Oval
+  aliases:
+  - D.W. Lucas Oval (Lucas Oval)
+  - D.W. Lucas Oval - Lucas Oval
+  - D.W. Lucas Oval Lucas Oval
+  - Lucas Oval
+  distance_km: 8.17
+  suburb: EAST MALVERN
+  home_club: East Malvern Tooronga
+  home_teams:
+  - Sunday 1st XI
+  - 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.86862
+  longitude: 145.065064
+- name: Templestowe Reserve 1
+  aliases:
+  - 'Templestowe Reserve #1'
+  - Templestowe Reserve (Oval 1)
+  - 'Templestowe Reserve - Oval #1'
+  - 'Templestowe Reserve - Templestowe Reserve - Oval #1'
+  - Templestowe Reserve 1
+  - Templestowe Reserve Ground 1
+  - Templestowe Reserve Oval 1
+  - 'Templestowe Reserve Templestowe Reserve - Oval #1'
+  distance_km: 8.2
+  suburb: TEMPLESTOWE
+  home_club: Templestowe
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.754074
+  longitude: 145.137826
+- name: Templestowe Reserve 2
+  aliases:
+  - 'Templestowe Reserve #2'
+  - Templestowe Reserve (Oval 2)
+  - 'Templestowe Reserve - Oval #2'
+  - 'Templestowe Reserve - Templestowe Reserve - Oval #2'
+  - Templestowe Reserve 2
+  - Templestowe Reserve Ground 2
+  - Templestowe Reserve Oval 2
+  - 'Templestowe Reserve Templestowe Reserve - Oval #2'
+  distance_km: 8.2
+  suburb: TEMPLESTOWE
+  latitude: -37.754074
+  longitude: 145.137826
+- name: Anderson Park East
+  aliases:
+  - Anderson Park (East)
+  - Anderson Park - East
+  - Anderson Park - East Oval - Upper
+  - Anderson Park East Oval
+  - Anderson Park East Oval - Upper
+  - Anderson Park Oval East
+  - East Oval - Upper
+  distance_km: 8.28
+  suburb: HAWTHORN EAST
+  home_club: Abbotsford Anglers
+  home_teams:
+  - 1st XI
+  - 3rd XI
+  - U14A Black
+  competition: ECA
+  latitude: -37.839953
+  longitude: 145.049357
+- name: Anderson Park West
+  aliases:
+  - Anderson Park (West)
+  - Anderson Park - West
+  - Anderson Park - West Oval - Lower
+  - Anderson Park Oval West
+  - Anderson Park West Oval
+  - Anderson Park West Oval - Lower
+  - West Oval - Lower
+  distance_km: 8.28
+  suburb: HAWTHORN EAST
+  latitude: -37.839953
+  longitude: 145.049357
+- name: Victoria Road Reserve
+  aliases:
+  - Victoria Road Reserve
+  - Victoria Road Reserve - Victoria Road Reserve
+  - Victoria Road Reserve 1
+  - Victoria Road Reserve Oval 1
+  - Victoria Road Reserve Victoria Road Reserve
+  distance_km: 8.35
+  suburb: HAWTHORN EAST
+  home_club: Hawthorn Boroondara
+  home_teams:
+  - 5th XI
+  - 6th XI
+  - U14 Mixed Red
+  competition: ECA
+  latitude: -37.821362
+  longitude: 145.047566
+- name: Lewin Reserve
+  aliases:
+  - Lewin Reserve
+  - Lewin Reserve - Lewin Reserve
+  - Lewin Reserve 1
+  - Lewin Reserve Lewin Reserve
+  - Lewin Reserve Oval 1
+  distance_km: 8.41
+  suburb: HAWTHORN
+  home_club: Glen Iris
+  home_teams:
+  - U14A
+  - U14B
+  competition: Cricket
+  latitude: -37.848773
+  longitude: 145.050398
+- name: Brandon Park Reserve
+  aliases:
+  - Brandon Park Reserve
+  - Brandon Park Reserve - Brandon Park Reserve
+  - Brandon Park Reserve 1
+  - Brandon Park Reserve Brandon Park Reserve
+  - Brandon Park Reserve Oval 1
+  distance_km: 8.5
+  suburb: WHEELERS HILL
+  home_club: Mulgrave Wheelers Hill
+  home_teams:
+  - 1st XI
+  competition: BHRDCA
+  latitude: -37.902101
+  longitude: 145.164639
+- name: Hays Paddock North
+  aliases:
+  - Hays Paddock (North)
+  - Hays Paddock - North
+  - Hays Paddock - North Oval
+  - Hays Paddock North Oval
+  - Hays Paddock Oval North
+  - North Oval
+  distance_km: 8.54
+  suburb: KEW EAST
+  home_club: Deepdene Uniting
+  home_teams:
+  - 3rd XI
+  - 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.788103
+  longitude: 145.059046
+- name: Hays Paddock South
+  aliases:
+  - Hays Paddock (South)
+  - Hays Paddock - South
+  - Hays Paddock - South Oval
+  - Hays Paddock Oval South
+  - Hays Paddock South Oval
+  - South Oval
+  distance_km: 8.54
+  suburb: KEW EAST
+  home_club: Deepdene Uniting
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  - U14 Mixed B
+  competition: ECA
+  latitude: -37.788103
+  longitude: 145.059046
+- name: J.W Manson Reserve - Mid Oval
+  aliases:
+  - J.W Manson Reserve (Mid Oval)
+  - J.W Manson Reserve - Mid Oval
+  - J.W Manson Reserve Mid Oval
+  - Mid Oval
+  distance_km: 8.55
+  suburb: HEATHMONT
+  latitude: -37.840377
+  longitude: 145.238378
+- name: Bulleen Park 2
+  aliases:
+  - 'Bulleen Park #2'
+  - Bulleen Park (Oval 2)
+  - 'Bulleen Park - Oval #2'
+  - Bulleen Park 2
+  - Bulleen Park Ground 2
+  - 'Bulleen Park Oval #2'
+  - Bulleen Park Oval 2
+  - 'Oval #2'
+  distance_km: 8.63
+  suburb: BULLEEN
+  home_club: Holy Trinity
+  home_teams:
+  - 3rd XI
+  - 4th XI
+  - U14 Mixed
+  competition: BHRDCA
+  latitude: -37.773344
+  longitude: 145.072317
+- name: Carlson Reserve
+  aliases:
+  - Carlson Reserve
+  - Carlson Reserve - Carlson Reserve
+  - Carlson Reserve 1
+  - Carlson Reserve Carlson Reserve
+  - Carlson Reserve Oval 1
+  distance_km: 8.67
+  suburb: CLAYTON
+  home_club: Monash Morrow
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.904556
+  longitude: 145.125607
+- name: Victoria Park (Kew) South
+  aliases:
+  - South Oval
+  - Victoria Park (Kew) (South)
+  - Victoria Park (Kew) - South
+  - Victoria Park (Kew) - South Oval
+  - Victoria Park (Kew) Oval South
+  - Victoria Park (Kew) South Oval
+  distance_km: 8.8
+  suburb: KEW
+  home_club: Mulgrave
+  home_teams:
+  - 5th XI
+  - 1st XI
+  - U16A
+  competition: ECA
+  latitude: -37.802443
+  longitude: 145.047362
+- name: Domeney Reserve
+  aliases:
+  - Domeney Reserve
+  - Domeney Reserve - Domeney Reserve
+  - Domeney Reserve 1
+  - Domeney Reserve Domeney Reserve
+  - Domeney Reserve Oval 1
+  distance_km: 8.97
+  suburb: PARK ORCHARDS
+  home_club: Park Orchards
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.774446
+  longitude: 145.219002
+- name: H.A Smith Reserve
+  aliases:
+  - H.A Smith Reserve
+  - H.A Smith Reserve - H.A Smith Reserve
+  - H.A Smith Reserve 1
+  - H.A Smith Reserve H.A Smith Reserve
+  - H.A Smith Reserve Oval 1
+  distance_km: 9.53
+  suburb: HAWTHORN
+  home_club: STC South Camberwell
+  home_teams:
+  - 4th XI
+  - U14 Mixed C
+  - 5th XI
+  competition: ECA
+  latitude: -37.836496
+  longitude: 145.034391
+- name: Lum Reserve East
+  aliases:
+  - East Oval
+  - Lum Reserve (East)
+  - Lum Reserve - East
+  - Lum Reserve - East Oval
+  - Lum Reserve East Oval
+  - Lum Reserve Oval East
+  distance_km: 9.79
+  suburb: WHEELERS HILL
+  home_club: St. Pauls Oakleigh
+  home_teams:
+  - 3rd XI
+  - 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.911802
+  longitude: 145.175346
+- name: Warrandyte High School
+  aliases:
+  - Warrandyte High School
+  - Warrandyte High School - Warrandyte High School
+  - Warrandyte High School 1
+  - Warrandyte High School Oval 1
+  - Warrandyte High School Warrandyte High School
+  distance_km: 9.84
+  suburb: WARRANDYTE
+  latitude: -37.745981
+  longitude: 145.185313
+- name: H.E Parker Reserve 1
+  aliases:
+  - 'H.E Parker Reserve #1'
+  - H.E Parker Reserve (Oval 1)
+  - H.E Parker Reserve - Oval 1 - East
+  - H.E Parker Reserve 1
+  - H.E Parker Reserve Ground 1
+  - H.E Parker Reserve Oval 1
+  - H.E Parker Reserve Oval 1 - East
+  - Oval 1 - East
+  distance_km: 9.86
+  suburb: HEATHMONT
+  home_club: Heathmont
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: BHRDCA
+  latitude: -37.835158
+  longitude: 145.254257
+- name: H.E Parker Reserve 2
+  aliases:
+  - 'H.E Parker Reserve #2'
+  - H.E Parker Reserve (Oval 2)
+  - H.E Parker Reserve - Oval 2 - West
+  - H.E Parker Reserve 2
+  - H.E Parker Reserve Ground 2
+  - H.E Parker Reserve Oval 2
+  - H.E Parker Reserve Oval 2 - West
+  - Oval 2 - West
+  distance_km: 9.86
+  suburb: HEATHMONT
+  home_club: Heathmont
+  home_teams:
+  - 5th XI
+  - 6th XI
+  competition: ECA
+  latitude: -37.835158
+  longitude: 145.254257
+- name: Chelsworth Park South 1
+  aliases:
+  - 'Chelsworth Park South #1'
+  - Chelsworth Park South (Oval 1)
+  - Chelsworth Park South - South East (Oval 1)
+  - Chelsworth Park South 1
+  - Chelsworth Park South Ground 1
+  - Chelsworth Park South Oval 1
+  - Chelsworth Park South South East (Oval 1)
+  - South East (Oval 1)
+  distance_km: 9.9
+  suburb: IVANHOE
+  home_club: Ivanhoe Saints
+  home_teams:
+  - U14 Red
+  - U14s
+  - U14 Blue
+  competition: Cricket
+  latitude: -37.778254
+  longitude: 145.048639
+- name: Mazenod College 1
+  aliases:
+  - 'Mazenod College #1'
+  - Mazenod College (Oval 1)
+  - 'Mazenod College - Mazenod College - Oval #1'
+  - 'Mazenod College - Oval #1'
+  - Mazenod College 1
+  - Mazenod College Ground 1
+  - 'Mazenod College Mazenod College - Oval #1'
+  - Mazenod College Oval 1
+  distance_km: 9.94
+  suburb: MULGRAVE
+  home_club: Mazenod OC
+  home_teams:
+  - 1st XI
+  - 2nd XI
+  competition: ECA
+  latitude: -37.915027
+  longitude: 145.166667
+- name: Mazenod College 2
+  aliases:
+  - 'Mazenod College #2'
+  - Mazenod College (Oval 2)
+  - 'Mazenod College - Mazenod College - Oval #2'
+  - 'Mazenod College - Oval #2'
+  - Mazenod College 2
+  - Mazenod College Ground 2
+  - 'Mazenod College Mazenod College - Oval #2'
+  - Mazenod College Oval 2
+  distance_km: 9.94
+  suburb: MULGRAVE
+  home_club: Mazenod OC
+  home_teams:
+  - 3rd XI
+  competition: BHRDCA
+  latitude: -37.915027
+  longitude: 145.166667
+- name: Ivanhoe Park
+  aliases:
+  - Ivanhoe Park
+  - Ivanhoe Park - Ivanhoe Park
+  - Ivanhoe Park 1
+  - Ivanhoe Park Ivanhoe Park
+  - Ivanhoe Park Oval 1
+  distance_km: 9.99
+  suburb: IVANHOE
+  latitude: -37.773259
+  longitude: 145.051975

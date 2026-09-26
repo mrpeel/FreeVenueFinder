@@ -1,0 +1,37 @@
+# Python runtime & virtual environments
+.venv/
+env/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Local configuration & environment variables
+.env
+.env.*
+*.local
+
+# Editor & OS metadata
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Scraped fixture cache & runtime data (preserves directory structure via .gitkeep)
+data/*.json
+!data/.gitkeep
+
+# Generated output reports (spreadsheets, CSVs)
+output/*
+!output/.gitkeep
+
