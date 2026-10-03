@@ -194,3 +194,74 @@ def test_graphql_round_and_grade_hint_parsing():
     assert m.home_team == "Laburnum - 2nd XI"
     assert m.away_team == "East Burwood - 2nd XI"
 
+
+def _two_day_graphql_payload(include_date_time_list: bool = True):
+    """Mirror of the real PlayHQ payload for Laburnum v East Burwood, Round 3 (2-day game)."""
+    allocation = {
+        "time": "13:00:00",
+        "court": {"name": "Kalang Park", "venue": {"name": "Kalang Park"}},
+    }
+    if include_date_time_list:
+        allocation["dateTimeList"] = [
+            {"date": "2026-10-17", "time": "13:00:00"},
+            {"date": "2026-10-24", "time": "13:00:00"},
+        ]
+    return {
+        "data": {
+            "discoverGradeFixture": [
+                {
+                    "id": "round-3",
+                    "name": "Round 3",
+                    "games": [
+                        {
+                            "id": "1cea72ae",
+                            "date": "2026-10-17",
+                            "dates": ["2026-10-17", "2026-10-24"],
+                            "allocation": allocation,
+                            "home": {"name": "Laburnum - 1st XI"},
+                            "away": {"name": "East Burwood - 1st XI"},
+                        }
+                    ],
+                }
+            ]
+        }
+    }
+
+
+@pytest.mark.parametrize("include_date_time_list", [True, False])
+def test_multi_day_game_yields_record_per_day(include_date_time_list):
+    """Two-day games must book the venue on every scheduled day, not just day 1."""
+    scraper = PlayHQScraper()
+    matches = scraper.extract_matches_from_json(
+        _two_day_graphql_payload(include_date_time_list),
+        source_url="graphql:test",
+        default_grade_name="3. Compare & Connect Dorothy McIntosh Shield",
+    )
+
+    assert [m.date for m in matches] == [datetime.date(2026, 10, 17), datetime.date(2026, 10, 24)]
+    assert [m.match_id for m in matches] == ["1cea72ae", "1cea72ae#d2"]
+    for m in matches:
+        assert m.venue_name == "Kalang Park"
+        assert m.start_time == "13:00:00"
+        assert m.time_slot == "Afternoon"
+        assert m.round_name == "Round 3"
+        assert m.home_team == "Laburnum - 1st XI"
+
+
+def test_multi_day_game_books_second_saturday_in_engine():
+    """End-to-end: venue must show BOOKED on both Saturdays of a two-day game."""
+    from playhq_venue_tracker.engine import AvailabilityEngine
+    from playhq_venue_tracker.models import AppConfig
+
+    config = AppConfig(
+        date_range={"start_date": "2026-10-17", "end_date": "2026-10-31"},
+        target_slots=["Afternoon"],
+        venues=[{"name": "Kalang Park", "aliases": ["Kalang Park"]}],
+    )
+    matches = PlayHQScraper().extract_matches_from_json(_two_day_graphql_payload())
+    records = AvailabilityEngine(config).process_fixtures(matches)
+    status = {r.date: r.status for r in records}
+
+    assert status[datetime.date(2026, 10, 17)] == "BOOKED"
+    assert status[datetime.date(2026, 10, 24)] == "BOOKED"
+    assert status[datetime.date(2026, 10, 31)] == "AVAILABLE"

@@ -159,15 +159,16 @@ class PlayHQScraper:
                 # Check if this dictionary represents a match/game record
                 if self._is_game_node(node):
                     try:
-                        record = self._parse_single_game(
+                        records = self._parse_single_game(
                             node,
                             grade_hint=grade_hint,
                             round_hint=round_hint,
                             source_url=source_url,
                         )
-                        if record and record.match_id not in seen_match_ids:
-                            matches.append(record)
-                            seen_match_ids.add(record.match_id)
+                        for record in records:
+                            if record.match_id not in seen_match_ids:
+                                matches.append(record)
+                                seen_match_ids.add(record.match_id)
                     except Exception as err:
                         logger.warning("Error parsing match record: %s. Node data: %s", err, node)
 
@@ -206,12 +207,18 @@ class PlayHQScraper:
         grade_hint: Optional[str] = None,
         round_hint: Optional[str] = None,
         source_url: Optional[str] = None,
-    ) -> Optional[MatchRecord]:
-        """Defensively parse a single match dictionary into a validated MatchRecord."""
+    ) -> List[MatchRecord]:
+        """Defensively parse a single match dictionary into validated MatchRecords.
+
+        Multi-day games (e.g. two-day cricket played over consecutive Saturdays)
+        produce one record per scheduled day. The first day keeps the original
+        match ID; subsequent days get a ``#d<N>`` suffix so ID-based de-duplication
+        does not discard them.
+        """
         match_id = str(node.get("id") or node.get("gameId") or node.get("match_id") or node.get("alias") or "")
         if not match_id:
             logger.warning("Skipping match node without valid ID")
-            return None
+            return []
 
         # Extract Teams
         home_team = self._extract_team_name(node.get("home") or node.get("homeTeam"))
@@ -225,17 +232,17 @@ class PlayHQScraper:
         home_team = home_team or "TBD Home Team"
         away_team = away_team or "TBD Away Team"
 
-        # Extract Date and Start Time
-        match_date, start_time = self._extract_date_and_time(node)
-        if not match_date:
+        # Extract all scheduled Dates and Start Times
+        date_times = self._extract_date_times(node)
+        if not date_times:
             logger.debug("Match %s omitted: No valid date found", match_id)
-            return None
+            return []
 
         # Extract Venue and Surface
         venue_name, surface_name = self._extract_venue_and_surface(node)
         if not venue_name:
             logger.debug("Match %s omitted: No venue information", match_id)
-            return None
+            return []
 
         # Extract Grade
         grade_name = grade_hint
@@ -256,20 +263,25 @@ class PlayHQScraper:
         if isinstance(status, dict):
             status = status.get("name") or status.get("value")
 
-        return MatchRecord(
-            match_id=match_id,
-            date=match_date,
-            start_time=start_time,
-            time_slot="Unknown",  # Auto-populated by model validator
-            venue_name=venue_name,
-            surface_name=surface_name,
-            grade_name=grade_name,
-            home_team=home_team,
-            away_team=away_team,
-            round_name=round_name,
-            status=str(status) if status else None,
-            source_url=source_url,
-        )
+        records: List[MatchRecord] = []
+        for day_idx, (match_date, start_time) in enumerate(date_times, start=1):
+            records.append(
+                MatchRecord(
+                    match_id=match_id if day_idx == 1 else f"{match_id}#d{day_idx}",
+                    date=match_date,
+                    start_time=start_time,
+                    time_slot="Unknown",  # Auto-populated by model validator
+                    venue_name=venue_name,
+                    surface_name=surface_name,
+                    grade_name=grade_name,
+                    home_team=home_team,
+                    away_team=away_team,
+                    round_name=round_name,
+                    status=str(status) if status else None,
+                    source_url=source_url,
+                )
+            )
+        return records
 
     def _extract_team_name(self, team_obj: Any) -> Optional[str]:
         """Safely extract team name from string, dict, or nested structure."""
@@ -286,52 +298,69 @@ class PlayHQScraper:
                 return self._extract_team_name(team_obj["team"])
         return None
 
-    def _extract_date_and_time(self, node: Dict[str, Any]) -> Tuple[Optional[datetime.date], Optional[str]]:
-        """Extract date and time strings defensively from match node."""
-        date_str = None
-        time_str = None
+    @staticmethod
+    def _parse_date_value(date_str: Any) -> Tuple[Optional[datetime.date], Optional[str]]:
+        """Parse a date string (plain or ISO datetime). Returns (date, HH:MM time if embedded)."""
+        if not date_str:
+            return None, None
+        try:
+            # Handle ISO e.g. 2026-10-03T09:00:00Z
+            if "T" in str(date_str):
+                parts = str(date_str).split("T")
+                parsed = datetime.date.fromisoformat(parts[0].strip())
+                time_match = re.match(r"^(\d{2}:\d{2})", parts[1]) if len(parts) > 1 else None
+                return parsed, (time_match.group(1) if time_match else None)
+            return datetime.date.fromisoformat(str(date_str).strip()), None
+        except Exception:
+            logger.warning("Could not parse date string: %s", date_str)
+            return None, None
+
+    def _extract_date_times(self, node: Dict[str, Any]) -> List[Tuple[datetime.date, Optional[str]]]:
+        """Extract every scheduled (date, start time) for a match node.
+
+        Multi-day games list each day in ``allocation.dateTimeList`` and ``dates``;
+        all of them are returned (sorted, de-duplicated) so later days are not lost.
+        """
+        default_time: Optional[str] = None
+        raw: List[Tuple[Any, Optional[str]]] = []
 
         # Check allocation first (PlayHQ standard structure)
         allocation = node.get("allocation")
         if isinstance(allocation, dict):
-            time_str = allocation.get("time") or time_str
+            default_time = allocation.get("time") or None
             dt_list = allocation.get("dateTimeList")
-            if isinstance(dt_list, list) and dt_list:
-                first_dt = dt_list[0]
-                if isinstance(first_dt, dict):
-                    date_str = first_dt.get("date") or date_str
-                    time_str = first_dt.get("time") or time_str
+            if isinstance(dt_list, list):
+                for dt in dt_list:
+                    if isinstance(dt, dict) and dt.get("date"):
+                        raw.append((dt.get("date"), dt.get("time")))
 
-        # Check direct fields
-        if not date_str:
-            date_str = node.get("date") or node.get("gameDate")
-            if not date_str:
-                dates = node.get("dates")
-                if isinstance(dates, list) and dates:
-                    date_str = dates[0]
+        if not default_time and "time" in node:
+            default_time = node["time"]
 
-        if not time_str and "time" in node:
-            time_str = node["time"]
+        # Direct fields: "dates" holds all days; "date"/"gameDate" only the first
+        if not raw:
+            dates = node.get("dates")
+            if isinstance(dates, list) and dates:
+                raw.extend((d, None) for d in dates if d)
+            else:
+                single = node.get("date") or node.get("gameDate")
+                if single:
+                    raw.append((single, None))
 
-        # Parse date_str
-        parsed_date: Optional[datetime.date] = None
-        if date_str:
-            try:
-                # Handle ISO e.g. 2026-10-03T09:00:00Z
-                if "T" in str(date_str):
-                    parts = str(date_str).split("T")
-                    parsed_date = datetime.date.fromisoformat(parts[0].strip())
-                    if not time_str and len(parts) > 1:
-                        # Extract HH:MM
-                        time_match = re.match(r"^(\d{2}:\d{2})", parts[1])
-                        if time_match:
-                            time_str = time_match.group(1)
-                else:
-                    parsed_date = datetime.date.fromisoformat(str(date_str).strip())
-            except Exception:
-                logger.warning("Could not parse date string: %s", date_str)
+        results: Dict[datetime.date, Optional[str]] = {}
+        for date_str, time_str in raw:
+            parsed, embedded_time = self._parse_date_value(date_str)
+            if parsed and parsed not in results:
+                results[parsed] = time_str or default_time or embedded_time
 
-        return parsed_date, time_str
+        return sorted(results.items())
+
+    def _extract_date_and_time(self, node: Dict[str, Any]) -> Tuple[Optional[datetime.date], Optional[str]]:
+        """Extract the first scheduled date and time from a match node (see _extract_date_times)."""
+        date_times = self._extract_date_times(node)
+        if not date_times:
+            return None, None
+        return date_times[0]
 
     def _extract_venue_and_surface(self, node: Dict[str, Any]) -> Tuple[Optional[str], Optional[str]]:
         """Extract venue name and surface/court/oval name from PlayHQ match node."""
@@ -466,6 +495,7 @@ class PlayHQScraper:
               }
               allocation {
                 time
+                dateTimeList { date time }
                 court {
                   id
                   name
